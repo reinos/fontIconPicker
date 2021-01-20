@@ -136,3 +136,6 @@ dist/
 
 # Cypress videos
 cypress/videos
+
+# phpstorm
+.idea

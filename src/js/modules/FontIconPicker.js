@@ -433,11 +433,11 @@ FontIconPicker.prototype = {
 <div class="selector-popup-wrap" data-fip-origin="${this.element.attr( 'id' )}">
 	<div class="selector-popup" style="display: none;"> ${ ( this.settings.hasSearch ) ?
 		`<div class="selector-search">
-			<input type="text" name="" value="" placeholder="${ this.settings.searchPlaceholder }" class="icons-search-input"/>
+			<input type="text" name="" value="" placeholder="${ this.settings.searchPlaceholder }" class="icons-search-input" data-ajax-validate="no"/>
 			<i class="fip-icon-search"></i>
 		</div>` : '' }
 		<div class="selector-category">
-			<select name="" class="icon-category-select" style="display: none"></select>
+			<select name="" class="icon-category-select" style="display: none" data-ajax-validate="no"></select>
 		</div>
 		<div class="fip-icons-container"></div>
 		<div class="selector-footer" style="display:none;">
